@@ -1,0 +1,28 @@
+function changecolor() {
+    document.getElementById('name').style.color="white";
+}
+function changecolornormal(){
+    document.getElementById('name').style.color="gray";
+
+}
+
+function changecolor2() {
+    document.getElementById('name-2').style.color="white";
+}
+function changecolornormal2(){
+    document.getElementById('name-2').style.color="gray";
+}
+
+function changecolor3() {
+    document.getElementById('name-3').style.color="white";
+}
+function changecolornormal3(){
+    document.getElementById('name-3').style.color="gray";
+}
+
+function changecolor4() {
+    document.getElementById('name-4').style.color="white";
+}
+function changecolornormal4(){
+    document.getElementById('name-4').style.color="gray";
+}
