@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1 style="color: white;">Who's watching?</h1>
+        <table>
+            <tr>
+                <td><a href="user1-page-index.html" class="btn-user" onmouseover="changecolor()" onmouseout="changecolornormal()"><img
+                            src="assets/img/user-1.jpeg" alt="" width="135px" height="130px"></a></td>
+                <td><a href="index.html" class="btn-user" onmouseover="changecolor2()" onmouseout="changecolornormal2()"><img src="assets/img/user-2.jpeg" alt="" width="135px"
+                            height="130px"></a></td>
+                <td><a href="index.html" class="btn-user" onmouseover="changecolor3()" onmouseout="changecolornormal3()"><img src="assets/img/user-3.jpeg" alt="" width="135px"
+                            height="130px"></a></td>
+                <td><a href="index.html" class="btn-user" onmouseover="changecolor4()" onmouseout="changecolornormal4()"><img src="assets/img/user-4.jpeg" alt="" width="135px"
+                            height="130px"></a></td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 id="name">Name</h2>
+                </td>
+                <td>
+                    <h2 id="name-2">Name</h2>
+                </td>
+                <td>
+                    <h2 id="name-3">Name</h2>
+                </td>
+                <td>
+                    <h2 id="name-4">Name</h2>
+                </td>
+            </tr>
+        </table>
+        <a href="manageprofiles.html" class="btn-manage-profile" style="text-align: center;">Manage Profiles</a>
+    </div>
+
+<style>
+    img{
+        border-radius: 5px;
+        margin-left: 25px;
+    }
+    img:hover{
+        border: 3px solid white;
+    }
+</style>
+</body>
+
+</html>
